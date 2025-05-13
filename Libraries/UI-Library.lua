@@ -15,7 +15,7 @@ local ScreenGui = Instance.new('ScreenGui');
 ProtectGui(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
-ScreenGui.DisplayOrder = 2000000000;
+ScreenGui.DisplayOrder = 2147483647;
 ScreenGui.Parent = CoreGui;
 
 local Toggles = {};
